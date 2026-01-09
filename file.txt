@@ -1,0 +1,29 @@
+rental-management/
+├── package.json
+├── vite.config.ts
+├── tsconfig.json
+├── tsconfig.node.json
+├── tailwind.config.js
+├── postcss.config.js
+├── index.html
+└── src/
+    ├── main.tsx
+    ├── index.css
+    ├── App.tsx
+    ├── components/
+    │   ├── ui/
+    │   │   ├── button.tsx
+    │   │   ├── input.tsx
+    │   │   ├── label.tsx
+    │   │   ├── card.tsx
+    │   │   └── select.tsx
+    │   ├── Layout.tsx
+    │   ├── Login.tsx
+    │   ├── TenantRegistration.tsx
+    │   ├── TenantDashboard.tsx
+    │   ├── OwnerDashboard.tsx
+    │   └── ForgotPassword.tsx
+    ├── utils/
+    │   └── auth.ts
+    └── types/
+        └── index.ts
